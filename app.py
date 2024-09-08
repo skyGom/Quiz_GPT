@@ -60,6 +60,8 @@ with st.sidebar:
     difficulty = st.selectbox("Select the difficulty level.", ("Easy", "Medium", "Hard"))
     quiz_count = st.number_input("Number of questions", min_value=1, max_value=10, value=5)
     
+    st.write("https://github.com/skyGom/Quiz_GPT")
+    
 if not docs:
     st.markdown(
         """
