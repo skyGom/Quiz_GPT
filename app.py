@@ -2,8 +2,6 @@ import json
 
 import streamlit as st
 
-from langchain.retrievers import WikipediaRetriever
-
 from gpt.model import create_llm, is_valid_openai_key
 
 from view.cache import get_cached_run_quiz_chain, get_cached_split_file, get_cached_wiki_search, run_quiz_chain, split_file
