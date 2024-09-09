@@ -35,11 +35,12 @@ with st.sidebar:
     # 유효한 API 키가 확인된 경우
     if st.session_state.valid_key:
         llm = create_llm(st.session_state.api_key)            
-        docs = None
-        topic = None
-        difficulty = None
-        quiz_count = 0
-        correct_count = 0
+
+    docs = None
+    topic = None
+    difficulty = None
+    quiz_count = 0
+    correct_count = 0
     
     choice = st.selectbox("Choose What you want to use.",(
         "File",
