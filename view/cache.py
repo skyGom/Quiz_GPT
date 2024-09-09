@@ -1,4 +1,3 @@
-import re
 import streamlit as st
 
 from gpt.split import split_file
